@@ -1,14 +1,17 @@
 {
-    "name": "wcs/quest-twig",
-    "description": "A quest to let you discover the power of the mighty twig template engine !",
-    "type": "quest",
-    "require": {
-        "twig/twig": "^3.3"
+    "name": "wilder/quest_twig2",
+    "autoload": {
+        "psr-4": {
+            "Wilder\\QuestTwig2\\": "src/"
+        }
     },
     "authors": [
         {
-            "name": "Aurélien",
-            "email": "aurelien.barbier@wildcodeschool.com"
+            "name": "Djoa",
+            "email": "siongdjoa3@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
 }
